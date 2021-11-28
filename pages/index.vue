@@ -10,7 +10,7 @@
         no-gutters
         >
           <v-parallax
-          src="parallax.png"
+          src="../parallax.png"
           >
           <v-spacer/>
           <v-row
