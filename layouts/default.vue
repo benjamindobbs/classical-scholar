@@ -6,10 +6,6 @@
       color="grey lighten-3"
       flat
     >
-      <v-avatar
-        :color="$vuetify.breakpoint.smAndDown ? 'grey darken-1' : 'transparent'"
-        size="32"
-      ></v-avatar>
 
       <v-tabs
         centered
