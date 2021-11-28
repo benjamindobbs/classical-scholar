@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
     router: {
-      base: '/classical-scholar/'
+      base: '/'
     },
   head: {
     titleTemplate: '%s - classical-scholar-nuxt',
