@@ -1,5 +1,5 @@
 <template>
-  <v-app id="inspire">
+  <v-app light id="inspire">
     <nuxt />
     <v-app-bar
       app
@@ -25,12 +25,6 @@
           
         </v-tab>
       </v-tabs>
-
-      <v-avatar
-        class="hidden-sm-and-down"
-        color="grey darken-1 shrink"
-        size="32"
-      ></v-avatar>
     </v-app-bar>
   </v-app>
 </template>
