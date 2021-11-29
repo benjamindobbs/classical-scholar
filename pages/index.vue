@@ -28,7 +28,7 @@
             Welcome to the Classical Scholar
           </h1>
           <h3 class="subheading">
-            <em> A Collection of Exemplary Student Work </em>
+            A Collection of Exemplary Student Work
             
           </h3>
           <v-btn
@@ -42,10 +42,7 @@
             <v-spacer/>
           </v-col>
           </v-row>
-          <v-spacer/>
-          <v-spacer/>
-          <v-spacer/>
-          <v-spacer/>
+          <v-spacer/><v-spacer/> <v-spacer/><v-spacer/>
           </v-parallax>
         </v-col>
       </v-container>
