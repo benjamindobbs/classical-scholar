@@ -1,0 +1,14 @@
+{
+    "subjects":[{
+            "name": "science",
+            "path": "/current/science"
+        },
+        {
+            "name": "math",
+            "path": "/current/math"
+        },
+        {
+            "name": "english",
+            "path": "/current/english"
+        }]
+}

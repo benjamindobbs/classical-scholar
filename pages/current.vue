@@ -5,3 +5,8 @@
     </v-main>
 </v-app>
 </template>
+<script>
+export default {
+  layout: 'subjectLanding'
+}
+</script>
