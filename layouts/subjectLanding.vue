@@ -14,7 +14,7 @@
         
       >
         <v-tab
-          v-for="subjects in this.$subjects.subjectlist" 
+          v-for="subjects in this.list.subjects" 
           :key="subjects"
           :to="subjects.path"
         >
@@ -30,12 +30,8 @@
 import SLjson from '../static/json/subjectlist.json'
 export default {
     data: () => ({
-      
+      list: SLjson
 
-    }),
+    })}
 
-created: () => ({
-    subjectlist: SLjson
-})
-}
 </script>
