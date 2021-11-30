@@ -12,3 +12,22 @@ h1{
 .subheading{
     font-style: italic;
 }
+.subjectHeading{
+    justify-content: left;
+    align-content: center;
+    color: black;
+    font-weight: 900;
+    font-size: 200;
+}
+
+.subjectSubheading{
+    justify-content: left;
+    align-content: top;
+    color: black;
+    font-style: italic;
+}
+
+.subjectButton{
+    justify-content: right;
+    align-content: center;
+}

@@ -13,6 +13,11 @@
         color="grey darken-1"
         
       >
+      <v-tab
+      :to="'/'"
+      >
+      Home
+      </v-tab>
         <v-tab
           v-for="subjects in this.list.subjects" 
           :key="subjects"
