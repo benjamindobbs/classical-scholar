@@ -28,7 +28,7 @@
             Welcome to the Classical Scholar
           </h1>
           <h3 class="subheading">
-            A Collection of Exemplary Student Work
+            News and Views From Gladiator Nation
             
           </h3>
           <v-btn

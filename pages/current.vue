@@ -1,25 +1,38 @@
 <template>
   <v-app>
     <v-main>
-      <div v-for="subjects in this.list.subjects" :key="subjects">
-        <div>
-          <v-parallax :src="subjects.banner" height="200">
-            <h1 class="subjectHeading">{{ subjects.name }}</h1>
-            <h4 class="subjectSubheading">{{ subjects.blurb }}</h4>
-            <v-btn
-              center
-              right
-              outlined
-              absolute
-              max-width=450
-              color="Black"
-              :to="subjects.path"
-              >
-              Go to {{subjects.name}} Catalog
-            </v-btn>
-          </v-parallax>
-        </div>
-      </div>
+      <v-container>
+        <v-row no-gutters>
+          <v-col
+            v-for="subjects in this.list.subjects"
+            :key="subjects"
+            cols="4"
+          >
+            <v-card class="mx-auto my-12" max-width="75%" hover>
+              <v-img :src="subjects.banner" height="100%" width="75%" contain>
+                <v-card-title class="subjectHeading">{{
+                  subjects.name
+                }}</v-card-title>
+                <v-card-text class="subjectSubheading">{{
+                  subjects.blurb
+                }}</v-card-text>
+                <v-card-actions>
+                  <v-btn
+                    center
+                    right
+                    outlined
+                    max-width="450"
+                    color="Black"
+                    :to="subjects.path"
+                  >
+                    Read About {{ subjects.name }}
+                  </v-btn>
+                </v-card-actions>
+              </v-img>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-main>
   </v-app>
 </template>
