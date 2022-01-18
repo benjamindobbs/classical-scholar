@@ -7,8 +7,8 @@ export default {
       base: '/'
     },
   head: {
-    titleTemplate: '%s - classical-scholar-nuxt',
-    title: 'classical-scholar-nuxt',
+    titleTemplate: '%s',
+    title: 'The Classical Scholar',
     htmlAttrs: {
       lang: 'en'
     },
