@@ -9,11 +9,11 @@
             cols="4"
           >
             <v-card class="mx-auto my-12" max-width="75%" hover>
-              <v-img :src="subjects.banner" height="100%" width="75%" contain>
-                <v-card-title class="subjectHeading">{{
+              <v-img :src="subjects.banner" height="100%" width="100%">
+                <v-card-title class="subjectHeading" style="font-size:1.5em">{{
                   subjects.name
                 }}</v-card-title>
-                <v-card-text class="subjectSubheading">{{
+                <v-card-text class="subjectSubheading" style="font-size:1em">{{
                   subjects.blurb
                 }}</v-card-text>
                 <v-card-actions>
@@ -25,7 +25,7 @@
                     color="Black"
                     :to="subjects.path"
                   >
-                    Read About {{ subjects.name }}
+                    <v-text style="font-size:.75em"> {{ subjects.name }} </v-text>
                   </v-btn>
                 </v-card-actions>
               </v-img>

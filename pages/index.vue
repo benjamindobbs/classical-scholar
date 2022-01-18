@@ -12,24 +12,20 @@
           <v-parallax
           src="../parallax.png"
           >
-          <v-spacer/>
           <v-row
           class="pt-15"
           no-gutters 
-          align="top"
+          align-content="start"
           justify="center"
           >
-          <v-col
-          class="pt-15"
-          align="center"
-          justify="center"
-          >
+            <div
+            style="text-align:center"
+            >
           <h1>
             Welcome to the Classical Scholar
           </h1>
           <h3 class="subheading">
             News and Views From Gladiator Nation
-            
           </h3>
           <v-btn
               class="ma-2"
@@ -39,10 +35,8 @@
               >
               Read Our Current Issue
             </v-btn>
-            <v-spacer/>
-          </v-col>
+            </div>
           </v-row>
-          <v-spacer/><v-spacer/> <v-spacer/><v-spacer/>
           </v-parallax>
         </v-col>
       </v-container>

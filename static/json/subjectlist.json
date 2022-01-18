@@ -1,50 +1,28 @@
 {
-    "subjects":[{
-            "name": "Interview With The Principal",
-            "path": "/current/science",
-            "banner": "/images/science_banner.png",
-            "blurb": "This is a blurb about science",
+    "subjects":[
+        {
+            "name": "Photo Gallery",
+            "path": "/gallery",
+            "banner": "/images/January-22/gallery_banner.png",
+            "blurb": "Check out our selection of student created artwork",
             "description":"",
             "content":""
         },
         {
-            "name": "Math",
-            "path": "/current/math",
-            "banner": "/images/math_banner.png",
-            "blurb": "",
-            "description":"",
-            "content":""
-        },
-        {
-            "name": "English",
-            "path": "/current/english",
+            "name": "A Cruel World",
+            "path": "/poetry",
             "banner": "/images/english_banner.png",
             "blurb": "",
             "description":"",
             "content":""
         },
         {
-            "name": "Art",
-            "path": "/current/art",
+            "name": "The Hero's Journey",
+            "path": "/essay",
             "banner": "/images/art_banner.png",
             "blurb": "",
             "description":"",
             "content":""
-        },
-        {
-            "name": "Classics",
-            "path": "/current/classics",
-            "banner": "",
-            "blurb": "",
-            "description":"",
-            "content":""
-        },
-        {
-            "name": "Humanities",
-            "path": "/current/humanities",
-            "banner": "",
-            "blurb": "",
-            "description":"",
-            "content":""
-        }]
+        }
+    ]
 }

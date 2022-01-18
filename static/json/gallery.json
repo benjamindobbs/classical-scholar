@@ -1,0 +1,29 @@
+{
+    "images": [
+        {
+            "path": "/images/January-22/book-NoonEisa.jpg",
+            "byline": "Noon Eisa",
+            "description": "Untitled"
+        },
+        {
+            "path": "/images/January-22/breanna_painting.jpg",
+            "byline": "Breanna Rivera",
+            "description": "Untitled"
+        },
+        {
+            "path": "/images/January-22/Flowers-Ana_Colares.jpg",
+            "byline": "Ana Corales",
+            "description": "Untitled"
+        },
+        {
+            "path": "/images/January-22/Red_Wolf-Spencer-Wright.jpg",
+            "byline": "Spencer Wright",
+            "description": "Red Wolf"
+        },
+        {
+            "path": "/images/January-22/student_in_mask-Nashon-Gibson-Rachel-Bryan.jpg",
+            "byline": "Nashon Gibson, Rachel Bryan",
+            "description": "Student in Mask"
+        }
+    ]
+}
