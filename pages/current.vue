@@ -21,7 +21,7 @@
                     center
                     right
                     outlined
-                    max-width="450"
+                    width: 50%
                     color="Black"
                     :to="subjects.path"
                   >

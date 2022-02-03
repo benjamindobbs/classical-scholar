@@ -23,6 +23,39 @@
             "blurb": "",
             "description":"",
             "content":""
+        },
+        {
+        "name": "Sullivan Interview",
+            "path": "/interview",
+            "banner": "/images/art_banner.png",
+            "blurb": "",
+            "description":"",
+            "content":""
+        },
+        {
+            "name": "Featured Artist",
+            "path": "/featuredartist",
+            "banner": "/images/art_banner.png",
+            "blurb": "",
+            "description":"",
+            "content":""
+        },
+        {
+            "name": "Short Story",
+            "path": "/shortstory",
+            "banner": "/images/art_banner.png",
+            "blurb": "",
+            "description":"",
+            "content":""
+        },
+        {
+            "name": "Night and Day",
+            "path": "/nightandday",
+            "banner": "/images/art_banner.png",
+            "blurb": "",
+            "description":"",
+            "content":""
         }
+
     ]
 }
