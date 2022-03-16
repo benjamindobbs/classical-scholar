@@ -7,7 +7,7 @@
         },
         {
             "path": "/images/January-22/breanna_painting.jpg",
-            "byline": "Breanna Rivera",
+            "byline": "Breanna Jimenez",
             "description": "Untitled"
         },
         {
@@ -24,6 +24,11 @@
             "path": "/images/January-22/student_in_mask-Nashon-Gibson-Rachel-Bryan.jpg",
             "byline": "Nashon Gibson, Rachel Bryan",
             "description": "Student in Mask"
+        },
+        {
+            "path": "/images/January-22/mask-art.jpg",
+            "byline": "Chayla Torres & Sarah Noonan",
+            "description": "African Mask"
         }
     ]
 }

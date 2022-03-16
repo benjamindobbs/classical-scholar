@@ -1,34 +1,37 @@
 <template>
   <v-app>
     <v-main>
-      <v-container>
-        <v-row no-gutters>
-          <v-col
-            v-for="subjects in this.list.subjects"
+      <v-container fluid>
+        <v-row dense>
+          <v-col 
+          v-for="subjects in this.list.content"
             :key="subjects"
-            cols="4"
-          >
-            <v-card class="mx-auto my-12" max-width="75%" hover>
-              <v-img :src="subjects.banner" height="100%" width="100%">
+            :cols="subjects.flex"
+            wrap
+            >
+            <v-card class="mx-auto my-12" max-width="75%" hover 
+            v-for="items in subjects.items"
+            :key="items"
+            >
+              <!-- <v-img :src="items.banner" height="100%" width="100%"> -->
                 <v-card-title class="subjectHeading" style="font-size:1.5em">{{
-                  subjects.name
+                  items.name
                 }}</v-card-title>
                 <v-card-text class="subjectSubheading" style="font-size:1em">{{
-                  subjects.blurb
+                  items.blurb
                 }}</v-card-text>
                 <v-card-actions>
                   <v-btn
                     center
                     right
                     outlined
-                    width: 50%
                     color="Black"
-                    :to="subjects.path"
+                    :to="items.path"
                   >
-                    <v-text style="font-size:.75em"> {{ subjects.name }} </v-text>
+                    {{ items.name }} 
                   </v-btn>
                 </v-card-actions>
-              </v-img>
+              <!-- </v-img> -->
             </v-card>
           </v-col>
         </v-row>
@@ -39,9 +42,9 @@
 <script>
 import SLjson from "../static/json/subjectlist.json";
 export default {
-  layout: "subjectLanding",
   data: () => ({
     list: SLjson,
   }),
+  layout: "subjectLanding",
 };
 </script>
