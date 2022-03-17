@@ -4,9 +4,9 @@
       <v-container grid-list-md >
       <v-row>
         <v-col
-          cols: 12
+          cols="12"
           > 
-        <v-card class="mx-auto">
+        <v-card class="mx-auto" tile>
           <v-card-title> January Featured Artist </v-card-title>
           <v-card-subtitle> Josiah Perez-Henry </v-card-subtitle>
           <v-card-text>
@@ -24,7 +24,7 @@
           </v-card-text>
         </v-card>
         <v-spacer></v-spacer>
-        <v-card v-for="images in this.list.images" :key="images" width="95%" style="margin:auto" class="py-12">
+        <v-card v-for="(images, index) in this.list.images" :key="index" width="95%" style="margin:auto" class="py-12" tile>
           <v-card-title>{{images.description}} </v-card-title>
           <v-img contain :src="images.path"></v-img>
         </v-card>
@@ -37,9 +37,9 @@
 <script>
 import fa from "../static/json/featuredArtist.json";
 export default {
-  layout: "subjectLanding",
   data: () => ({
     list: fa,
   }),
+  layout: "subjectLanding",
 };
 </script>

@@ -4,8 +4,8 @@
       <v-container>
         <v-row no-gutters>
           <v-col
-            v-for="images in this.list.images"
-            :key="images"
+            v-for="(images, index) in this.list.images"
+            :key="index"
             cols="4"
           >
           <v-card  class="mx-auto my-12" max-width="75%" hover>

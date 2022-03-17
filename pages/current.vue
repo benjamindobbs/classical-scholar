@@ -4,14 +4,14 @@
       <v-container fluid>
         <v-row dense>
           <v-col 
-          v-for="subjects in this.list.content"
-            :key="subjects"
+          v-for="(subjects, index) in this.list.content"
+            :key="index"
             :cols="subjects.flex"
             wrap
             >
             <v-card class="mx-auto my-12" max-width="75%" hover 
-            v-for="items in subjects.items"
-            :key="items"
+            v-for="(items, itemIndex) in subjects.items"
+            :key="itemIndex"
             >
               <!-- <v-img :src="items.banner" height="100%" width="100%"> -->
                 <v-card-title class="subjectHeading" style="font-size:1.5em">{{
