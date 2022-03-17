@@ -26,9 +26,12 @@
                     right
                     outlined
                     color="Black"
+                    large
                     :to="items.path"
                   >
-                    {{ items.name }} 
+                  <p class="text-wrap" style="width: 65%; margin: auto; font-size:.75em;"> <strong>
+                    {{ items.description }} 
+                  </strong></p>
                   </v-btn>
                 </v-card-actions>
               <!-- </v-img> -->

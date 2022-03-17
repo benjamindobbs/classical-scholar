@@ -9,8 +9,8 @@
                     "name": "Photo Gallery",
                     "path": "/gallery",
                     "banner": "/images/January-22/gallery_banner.png",
-                    "blurb": "Check out our selection of student created artwork",
-                    "description":"",
+                    "blurb": "By Various Artists",
+                    "description":"View Gallery",
                     "content":""
                 },
                 {
@@ -18,7 +18,7 @@
                     "path": "/featuredartist",
                     "banner": "/images/art_banner.png",
                     "blurb": "Josiah Henry-Perez",
-                    "description":"",
+                    "description":"View Gallery",
                     "content":""
                 }
             ]
@@ -32,7 +32,7 @@
                     "path": "/essay",
                     "banner": "/images/art_banner.png",
                     "blurb": "By Jaanai Winn",
-                    "description":"",
+                    "description":"Read Now",
                     "content":""
                 },
                 {
@@ -40,7 +40,7 @@
                     "path": "/beowulf",
                     "banner": "",
                     "blurb": "By Reilly Fournier",
-                    "description": "",
+                    "description": "Read Now",
                     "content": ""
                 }
             ]
@@ -54,7 +54,7 @@
                     "path": "/poetry",
                     "banner": "/images/english_banner.png",
                     "blurb": "By Keanu Wright",
-                    "description":"",
+                    "description":"Read Now",
                     "content":""
                 },
                 {
@@ -62,7 +62,7 @@
                     "path": "/a-new-season",
                     "banner": "",
                     "blurb": "By Ashley Nelson",
-                    "description": "",
+                    "description": "Read Now",
                     "content": ""
                 },
                 {
@@ -70,7 +70,7 @@
                     "path": "/nightandday",
                     "banner": "/images/art_banner.png",
                     "blurb": "By Adrianna Jimenez",
-                    "description":"",
+                    "description":"Read Now",
                     "content":""
                 }
                 
@@ -86,7 +86,7 @@
                     "path": "/connecticut-eugenics",
                     "banner": "",
                     "blurb": "By Zulai Machin",
-                    "description": "",
+                    "description": "Read Now",
                     "content": ""
                 },
                 {
@@ -94,7 +94,7 @@
                     "path": "/being-a-black-women",
                     "banner": "",
                     "blurb": "By Erickah Wright",
-                    "description": "",
+                    "description": "Read Now",
                     "content": ""
                 },
                 {
@@ -102,7 +102,7 @@
                         "path": "/interview",
                         "banner": "/images/art_banner.png",
                         "blurb": "By Uzoma Chukwurah & Adrianna Jimenez",
-                        "description":"",
+                        "description":"Read Now",
                         "content":""
                     }
             ]
@@ -116,7 +116,7 @@
                     "path": "/shortstory",
                     "banner": "/images/art_banner.png",
                     "blurb": "By Charlese Mack",
-                    "description":"",
+                    "description":"Read Now",
                     "content":""
                 }
             ]
