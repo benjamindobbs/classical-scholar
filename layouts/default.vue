@@ -13,8 +13,8 @@
         color="grey darken-1"
       >
         <v-tab
-          v-for="link in links"
-          :key="link"
+          v-for="(link, index) in links"
+          :key="index"
           :to="link.path"
         >
           {{ link.name }}
@@ -31,6 +31,7 @@ export default {
       links: [
         {name:'Home', path: '/'},
         {name:'Current Issue', path:'/current'},
+        {name:'Submit Here', path:'/submissions'}
         // {name:'The Archives', path: '/archives'},
         // {name:'About', path: '/about'},
         // {name:'Contributors', path: '/contributers'},

@@ -1,20 +1,12 @@
 <template>
     <v-app>
         <v-main>
-            <v-card>
-                <v-card-title> The Battle with Magical Destiny </v-card-title>
-                <v-card-subtitle> Charlese Mack <br> Quest Archetype Short Story </v-card-subtitle>
-                <v-card-text> {{this.list.shortStory.magicalDestiny}} </v-card-text>
-            </v-card>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vT63IpbEEfhcOQg-lFBGwchyDFbmpslhR2D9BZz1-hjZwx0aLAe7_ZcN7OBqkLR9gf3isoBSx5A6yKq/pub?embedded=true" width="100%" height="100%" frameBorder="0"></iframe>
         </v-main>
     </v-app>
 </template>
 <script>
-import story from "../static/json/shortstory.json";
 export default {
-  layout: "subjectLanding",
-  data: () => ({
-    list: story,
-  }),
-};
+    layout: "subjectLanding"
+}
 </script>
