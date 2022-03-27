@@ -6,8 +6,8 @@
         <v-col
           cols="12"
           > 
-        <v-card class="mx-auto" tile>
-          <v-card-title> January Featured Artist </v-card-title>
+        <v-card class="mx-auto" tile flat>
+          <v-card-title> April Featured Artist </v-card-title>
           <v-card-subtitle> Josiah Perez-Henry </v-card-subtitle>
           <v-card-text>
             The art of photography itself has been so impactful to my life in
@@ -24,7 +24,7 @@
           </v-card-text>
         </v-card>
         <v-spacer></v-spacer>
-        <v-card v-for="(images, index) in this.list.images" :key="index" width="95%" style="margin:auto" class="py-12" tile>
+        <v-card v-for="(images, index) in this.list.images" :key="index" width="95%" style="margin:auto" class="py-12"  flat>
           <v-card-title>{{images.description}} </v-card-title>
           <v-img contain :src="images.path"></v-img>
         </v-card>

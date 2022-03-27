@@ -1,9 +1,11 @@
 <template>
 <v-app>
     <v-main>
-    <h1 style="color:black;"> Classical Scholar is a Student Run Site </h1>
-    <h2 class="subheading;"> These are the students who have contributed </h2> 
-    <p> coming soon... </p>
+    <v-card>
+        <v-card-title> Our Contributors </v-card-title>
+        <v-img src=""> </v-img>
+        <v-card-text> From Right to Left: names... </v-card-text>
+    </v-card> 
     </v-main>
 </v-app>
 </template>

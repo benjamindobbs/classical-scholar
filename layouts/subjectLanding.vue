@@ -3,8 +3,8 @@
     <nuxt />
     <v-app-bar app color="grey lighten-3" flat>
       <v-tabs centered class="ml-n9" color="grey darken-1">
-        <v-tab to="/current"> Home </v-tab>
-
+        <v-tab to="/"> Home </v-tab>
+        <v-tab to="/current"> Current Issue </v-tab>
         <v-menu v-for="(tabName, index) in this.tabsList.content" :key="index">
           <template v-slot:activator="{ on, attrs }">
             <v-tab v-bind="attrs" v-on="on">
