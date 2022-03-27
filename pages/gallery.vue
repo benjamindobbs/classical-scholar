@@ -4,15 +4,13 @@
       <v-container>
         <v-row no-gutters>
           <v-col
-            v-for="(images, index) in this.list.images"
-            :key="index"
-            cols="4"
+            cols="12"
           >
-          <v-card  class="mx-auto my-12" max-width="75%" hover>
-            <v-card-title> {{images.description}} </v-card-title>
-            <v-img :src="images.path"></v-img>
-            <v-card-text> {{images.byline}} </v-card-text>
-            </v-card>
+          <v-card v-for="(images, index) in this.list.images" :key="index" width="95%" style="margin:auto" class="py-12"  flat>
+          <v-card-title>{{images.description}} </v-card-title>
+          <v-img contain :src="images.path"></v-img>
+          <v-card-text> {{images.byline}} </v-card-text>
+          </v-card>
           </v-col>
         </v-row>
       </v-container>
