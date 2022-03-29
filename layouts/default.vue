@@ -31,7 +31,8 @@ export default {
       links: [
         {name:'Home', path: '/'},
         {name:'Current Issue', path:'/current'},
-        {name:'Submit Here', path:'/submissions'}
+        {name:'Submit Here', path:'/submissions'},
+        {name:'Contributors', path:'/contributors'}
         // {name:'The Archives', path: '/archives'},
         // {name:'About', path: '/about'},
         // {name:'Contributors', path: '/contributers'},
