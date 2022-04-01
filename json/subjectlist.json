@@ -1,0 +1,127 @@
+{   
+    "content":[
+        
+        {
+            "name":"Art",
+            "flex":"6",
+            "items":[
+                {
+                    "name": "Photo Gallery",
+                    "path": "/gallery",
+                    "banner": "/images/January-22/gallery_banner.png",
+                    "blurb": "By Various Artists",
+                    "description":"View Gallery",
+                    "content":""
+                },
+                {
+                    "name": "Featured Artist",
+                    "path": "/featuredartist",
+                    "banner": "/images/art_banner.png",
+                    "blurb": "Josiah Henry-Perez",
+                    "description":"View Gallery",
+                    "content":""
+                }
+            ]
+        },
+        {
+            "name":"Essays",
+            "flex":"6",
+            "items":[
+                {
+                    "name": "The Hero's Journey",
+                    "path": "/essay",
+                    "banner": "/images/art_banner.png",
+                    "blurb": "By Jaanai Winn",
+                    "description":"Read Now",
+                    "content":""
+                },
+                {
+                    "name": "Beowulf: One Hero, A Thousand Faces",
+                    "path": "/beowulf",
+                    "banner": "",
+                    "blurb": "By Reilly Fournier",
+                    "description": "Read Now",
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "name":"Poetry",
+            "flex":"6",
+            "items":[
+                {
+                    "name": "A Cruel World",
+                    "path": "/poetry",
+                    "banner": "/images/english_banner.png",
+                    "blurb": "By Keanu Wright",
+                    "description":"Read Now",
+                    "content":""
+                },
+                {
+                    "name": "A New Season",
+                    "path": "/a-new-season",
+                    "banner": "",
+                    "blurb": "By Ashley Nelson",
+                    "description": "Read Now",
+                    "content": ""
+                },
+                {
+                    "name": "Night and Day",
+                    "path": "/nightandday",
+                    "banner": "/images/art_banner.png",
+                    "blurb": "By Adrianna Jimenez",
+                    "description":"Read Now",
+                    "content":""
+                }
+                
+                       
+            ]
+        },
+        {
+            "name":"Articles",
+            "flex":"6",
+            "items":[
+                {
+                    "name": "Connecticut Eugenics in the 1900s",
+                    "path": "/connecticut-eugenics",
+                    "banner": "",
+                    "blurb": "By Zulai Machin",
+                    "description": "Read Now",
+                    "content": ""
+                },
+                {
+                    "name": "The Reality of Being a Black Woman",
+                    "path": "/being-a-black-woman",
+                    "banner": "",
+                    "blurb": "By Erickah Wright",
+                    "description": "Read Now",
+                    "content": ""
+                },
+                {
+                    "name": "Principal's Interview",
+                        "path": "/interview",
+                        "banner": "/images/art_banner.png",
+                        "blurb": "By Uzoma Chukwurah & Adrianna Jimenez",
+                        "description":"Read Now",
+                        "content":""
+                    }
+            ]
+        },
+        {
+            "name":"Fiction",
+            "flex":"12",
+            "items":[
+                {
+                    "name": "A Battle With Magical Destiny",
+                    "path": "/shortstory",
+                    "banner": "/images/art_banner.png",
+                    "blurb": "By Charlese Mack",
+                    "description":"Read Now",
+                    "content":""
+                }
+            ]
+        }
+        
+        
+    ]
+}

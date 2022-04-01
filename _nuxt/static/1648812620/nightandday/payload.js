@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/nightandday", {data:[{}],fetch:{},mutations:void 0});

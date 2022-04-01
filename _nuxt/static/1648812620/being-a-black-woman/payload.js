@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/being-a-black-woman", {data:[{}],fetch:{},mutations:void 0});

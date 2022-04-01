@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/a-new-season", {data:[{}],fetch:{},mutations:void 0});

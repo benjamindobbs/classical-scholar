@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/connecticut-eugenics", {data:[{}],fetch:{},mutations:void 0});
