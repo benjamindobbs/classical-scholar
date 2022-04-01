@@ -37,7 +37,7 @@
                     <v-card-text style="font-size:.75em"> JB Pride Uniforms </v-card-text>
                   </v-btn>
                 </v-card-actions>
-                <v-card-text> Ms. Sullivan did bring up making our own Classical gear. She said that if the school invested in a logo printing machine we could essentially largely cut the prices of the gear, reduce the amount of time in between ordering and receiving the item, and personalize the gear for clubs. </v-card-text>
+                <v-card-text> Ms. Sullivan did bring up making our own Classical gear. She told us that Dobbs' Graphics class is selling and producing hoodies and other merchandise at a lower price. Look for future order forms in your advisory classes to get in on the deal. </v-card-text>
           </v-card>
         </v-row>
       </v-container>
